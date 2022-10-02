@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from '../src/components/navbar/Navbar';
 import Banner from '../src/components/banner/Banner';
 import RowPost from '../src/components/rowPost/RowPost';
+import CurrentBanner from './components/currentbanner/CurrentBanner';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Navbar/>
     <Banner/>
     <RowPost/>
+    <CurrentBanner/>
     </div>
   );
 }

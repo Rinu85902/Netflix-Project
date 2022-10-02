@@ -8,7 +8,8 @@ function Banner(){
     useEffect(()=>{
         
         axios.get(`discover/movie?api_key=${ApiKey}&with_genres=28'`).then((response=>{
-            console.log(response.data.results[6]);
+            console.log("banner");
+            console.log(response.data.results);
             setMovie(response.data.results[6])
         }))
     }, [])
